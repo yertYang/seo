@@ -7,6 +7,7 @@ $(function () {
 	var animation = false;   //������־
 	var numOfCities =10;   //ҳ�����
 
+	
 	//��Ƿ�ֹ��������
 	function flag() {
 		animation = false;
