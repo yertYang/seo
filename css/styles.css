@@ -5,6 +5,7 @@
 
 body {
   background: #1C182F;
+  cursor:pointer
 }
 .demo {
     overflow: hidden;
