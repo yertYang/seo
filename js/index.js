@@ -43,7 +43,7 @@ $(function () {
 	}
 
 	//mousewheel - IE��chrome ��  DOMMouseScroll - firefox
-	$(document).on('mousewheel DOMMouseScroll', function (e) {
+	$(document).on('mousewheel DOMMouseScroll click', function (e) {
 		if (animation) return;
 		//����������
 		var delta = e.originalEvent.wheelDelta;  
